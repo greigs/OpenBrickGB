@@ -1,1 +1,11 @@
-﻿Comment,Designator,Footprint,JLCPCB Part #
+﻿Comment,Model Number,Supplier,Link,JLCPCB Part #,Quantity
+"2.4"" LCD Screen",ER-TFT024-3,AliExpress,https://www.aliexpress.com/item/1005008083677084.html,-,1
+USB-C Low-Profile Extension,CMZW-CF,AliExpress,https://www.aliexpress.com/item/1005008675001524.html,-,1
+Battery with PH connector,702025 300mAh,AliExpress,https://www.aliexpress.com/item/1005009296674098.html,-,1
+Silicon Membranes for A+B buttons,-,AliExpress,https://www.aliexpress.com/item/1005007354534629.html,-,1
+LEGO Part,TBD,LEGO,,,?
+LEGO Part,TBD,LEGO,,,?
+Speaker,CMS-160903-18SP-X8,DigiKey,https://www.digikey.co.uk/en/products/detail/same-sky-formerly-cui-devices/CMS-160903-18SP-X8/18742602,-,1
+JST SUR Wire Jumper - 8p ,A08SUR08SUR32W152A,DigiKey,https://www.digikey.co.uk/en/products/detail/jst-sales-america-inc/A08SUR08SUR32W152A/6009356,,1
+JST SUR Wire Jumper - 3p,A03SUR03SUR32W152B,DigiKey,https://www.digikey.co.uk/en/products/detail/jst-sales-america-inc/A03SUR03SUR32W152B/6708450,,1
+3M double sided adhesive,,Stationary Shop?,,,1
