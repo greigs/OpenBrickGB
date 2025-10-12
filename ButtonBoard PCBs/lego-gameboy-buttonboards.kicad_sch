@@ -1,0 +1,2684 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8dcae994-71e6-49aa-90cb-ebad899bdc5c")
+	(paper "A4")
+	(title_block
+		(title "Lego Game Boy Button Boards")
+		(rev "v1.0.0")
+		(company "Theremin Hero")
+	)
+	(lib_symbols
+		(symbol "DMG:DMG_BTN1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at -2.54 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DMG:DMG_BTN1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "A, B, Up, Down, Left, Right button pads for DMG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DMG_BTN1_1_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 2.286) (xy 0 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0.635 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DMG:DMG_BTN2_TACT2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at -2.54 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DMG:DMG_BTN2_TACT2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Start, Select button pads for DMG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DMG_BTN2_TACT2_1_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 2.286) (xy 0 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0.635 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DMG:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DMG:PTR1TP20R"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at -1.016 -6.35 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "DMG:TP20R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TEST PIN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PTR1TP20R_1_0"
+				(polyline
+					(pts
+						(xy -0.635 0) (xy -0.635 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -5.207) (xy -0.508 -5.715)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -5.715) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -0.762) (xy 0.381 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.27) (xy 0.381 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy 0.381 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -2.286) (xy 0.381 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -2.794) (xy 0.381 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.381 -5.207)
+					(end 0.381 -4.572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0.508 -5.715)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -1.016) (xy -0.381 -0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -1.524) (xy -0.381 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -2.032) (xy -0.381 -1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -2.54) (xy -0.381 -2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -3.048) (xy -0.381 -2.794)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -5.207) (xy -0.508 -5.207)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -5.715) (xy 0.508 -5.207)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -4.572) (xy -0.635 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -4.572) (xy 0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "TP"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "TP"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 62.23 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b4492d0-7342-4c5c-a383-78175385aa64")
+	)
+	(junction
+		(at 83.82 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ff0eb3d-cea2-4ca6-a82b-f788d99a7a86")
+	)
+	(junction
+		(at 83.82 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fac070a-557d-4af4-9732-9e5de1807b6c")
+	)
+	(junction
+		(at 83.82 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bfed9b6-51fd-4de0-8e77-703934e4e2e8")
+	)
+	(junction
+		(at 58.42 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5430aa4-a481-4bcb-a367-76f792945189")
+	)
+	(junction
+		(at 62.23 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9f1419d-1a34-4a51-a905-03170de2aa99")
+	)
+	(wire
+		(pts
+			(xy 49.53 97.79) (xy 41.91 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0982d1d3-6a30-4d9a-a817-2fde0328c772")
+	)
+	(wire
+		(pts
+			(xy 38.1 154.94) (xy 43.18 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b943d36-3304-4d78-a286-7e9f1b029c82")
+	)
+	(wire
+		(pts
+			(xy 83.82 113.03) (xy 83.82 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b1edc2-7a06-4f3e-95ed-7ca6e4d7043b")
+	)
+	(wire
+		(pts
+			(xy 93.98 120.65) (xy 104.14 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3e6fb500-50c1-4a2b-8003-7a8ac540230f")
+	)
+	(wire
+		(pts
+			(xy 58.42 154.94) (xy 55.88 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3e7fbcf8-bf0c-49fc-bae9-8bf1e3ef78c0")
+	)
+	(wire
+		(pts
+			(xy 26.67 152.4) (xy 26.67 149.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "44fcc442-9dc8-4174-8ebe-c13163344494")
+	)
+	(wire
+		(pts
+			(xy 83.82 130.81) (xy 83.82 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4baab398-b045-4378-a449-b89d2ff0435d")
+	)
+	(wire
+		(pts
+			(xy 83.82 120.65) (xy 83.82 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "536db9b6-728b-4d23-a4d9-24c1cd4f201a")
+	)
+	(wire
+		(pts
+			(xy 93.98 130.81) (xy 104.14 130.81)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "54998ad1-c39a-4e58-acd0-1d2b20723db2")
+	)
+	(wire
+		(pts
+			(xy 55.88 143.51) (xy 58.42 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "65898483-1fb7-4daf-88e3-f3b498d8205f")
+	)
+	(wire
+		(pts
+			(xy 45.72 143.51) (xy 38.1 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "687e8639-5dee-437a-8245-cf8a0c4e47af")
+	)
+	(wire
+		(pts
+			(xy 62.23 87.63) (xy 62.23 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "75079612-875a-4432-a911-aca37979ccf9")
+	)
+	(wire
+		(pts
+			(xy 41.91 107.95) (xy 46.99 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eaad4e2-e002-4ef7-800f-1fb6ac48679f")
+	)
+	(wire
+		(pts
+			(xy 58.42 143.51) (xy 58.42 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8433c199-05fb-44e2-984b-d4159d7d2122")
+	)
+	(wire
+		(pts
+			(xy 27.94 99.06) (xy 27.94 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "88689f56-f21c-4122-9d4e-74a4ed994ade")
+	)
+	(wire
+		(pts
+			(xy 41.91 107.95) (xy 49.53 107.95)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "92d7c7e2-fdf9-4cc6-b89c-d80c59af1145")
+	)
+	(wire
+		(pts
+			(xy 104.14 151.13) (xy 93.98 151.13)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9f0e2155-cca0-4ee0-a3f4-8a9929d0a718")
+	)
+	(wire
+		(pts
+			(xy 59.69 97.79) (xy 62.23 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "add74c10-92cb-472d-a840-636144988add")
+	)
+	(wire
+		(pts
+			(xy 62.23 107.95) (xy 62.23 128.27)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bb113fa4-ef65-44c1-8989-5f33252cff11")
+	)
+	(wire
+		(pts
+			(xy 83.82 140.97) (xy 83.82 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c858a7-2165-41f8-9d46-b97f5822114b")
+	)
+	(wire
+		(pts
+			(xy 59.69 107.95) (xy 62.23 107.95)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e0692e2f-1dea-48db-a4dd-b3d1d1e13493")
+	)
+	(wire
+		(pts
+			(xy 58.42 154.94) (xy 58.42 158.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e2cc10d0-8a1c-4c32-8504-83d8bd67f4e6")
+	)
+	(wire
+		(pts
+			(xy 62.23 97.79) (xy 62.23 107.95)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e4c2ad63-b4c4-44d0-8e3e-54dacef6f2ec")
+	)
+	(wire
+		(pts
+			(xy 38.1 143.51) (xy 43.18 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed41e14f-2d82-4719-8376-4324ef27740f")
+	)
+	(wire
+		(pts
+			(xy 45.72 154.94) (xy 38.1 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f48f19c8-254e-4c62-8b28-d3e599ee346b")
+	)
+	(wire
+		(pts
+			(xy 93.98 140.97) (xy 104.14 140.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fd84304a-0e89-4dda-8840-c0ae6d5b479e")
+	)
+	(label "P01"
+		(at 96.52 120.65 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "2aecb4ca-563a-4a27-a04b-953ab1f7c9ba")
+	)
+	(label "P11"
+		(at 43.18 143.51 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "686c9cd7-d73b-4c7e-83bd-240a042c379e")
+	)
+	(label "3V3"
+		(at 83.82 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "963779c0-559d-4c29-a7cc-5811eb0cb754")
+	)
+	(label "P10"
+		(at 43.18 154.94 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "a200b459-9edb-49d3-aba8-d1cb4c3b9835")
+	)
+	(label "P13"
+		(at 46.99 107.95 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1bc5818-266c-4a09-8d41-ff34b618c511")
+	)
+	(label "P02"
+		(at 96.52 130.81 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2b8bdd9-4752-4e13-b5bb-6ec1e4ac5777")
+	)
+	(label "P12"
+		(at 46.99 97.79 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "e093b786-82d2-42c7-ade0-1e66b980bed8")
+	)
+	(label "P03"
+		(at 96.52 140.97 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "e662ad5c-9d7d-4413-99fd-85c28fd63c7c")
+	)
+	(label "P00"
+		(at 96.52 151.13 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f539c8b6-dee1-41ab-81b5-f0eebb1a5c11")
+	)
+	(symbol
+		(lib_id "DMG:DMG_BTN1")
+		(at 50.8 154.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00d4ce00-a541-49f5-a5ec-f014c8a5e58c")
+		(property "Reference" "A0"
+			(at 53.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "DMG-BTN"
+			(at 53.34 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:DMG_BTN1"
+			(at 50.8 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "A, B, Up, Down, Left, Right button pads for DMG"
+			(at 50.8 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "33497332-2bca-42cd-9870-0c164a2f778b")
+		)
+		(pin "P$1"
+			(uuid "dda8d1f7-fd6a-415f-874b-2d8eadb19736")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "A0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:PTR1TP20R")
+		(at 104.14 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "074b260f-2b21-4a44-8be5-e01d6eff2c40")
+		(property "Reference" "TP_D0"
+			(at 105.156 132.08 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PTR1TP20R"
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:TP20R"
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEST PIN"
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "25193d42-4f2e-40fb-912d-5aa5705c5995")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "TP_D0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:DMG_BTN1")
+		(at 88.9 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a3633c3-b957-40c1-909b-7fceebe74fd8")
+		(property "Reference" "DOWN0"
+			(at 86.36 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "DMG-BTN"
+			(at 86.36 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:DMG_BTN1"
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "A, B, Up, Down, Left, Right button pads for DMG"
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "6a1a89f4-9608-4ec3-938a-6cb0393b39cd")
+		)
+		(pin "P$2"
+			(uuid "50b4d648-d3e8-4b18-93c8-8c51930d1efe")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "DOWN0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:GND")
+		(at 27.94 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18360843-b6cc-4029-bafd-04ba8487059a")
+		(property "Reference" "#GND10"
+			(at 27.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 104.14 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 27.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4dfb559-b012-4d83-83cf-df86e42c826b")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "#GND10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:DMG_BTN1")
+		(at 88.9 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18dcd5c2-78a6-446f-939c-23ff3ad1042b")
+		(property "Reference" "RIGHT0"
+			(at 86.36 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "DMG-BTN"
+			(at 86.36 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:DMG_BTN1"
+			(at 88.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "A, B, Up, Down, Left, Right button pads for DMG"
+			(at 88.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "4b68070a-ac66-4a88-9658-9ea0c9b5e799")
+		)
+		(pin "P$1"
+			(uuid "ea91708b-89c5-4d25-9d50-2b47036de980")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "RIGHT0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:PTR1TP20R")
+		(at 104.14 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cc1c9ef-a8c2-41fe-99a1-a9ac436f8ac8")
+		(property "Reference" "TP_R0"
+			(at 105.156 142.24 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PTR1TP20R"
+			(at 104.14 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:TP20R"
+			(at 104.14 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEST PIN"
+			(at 104.14 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "12449a0c-8822-45c2-adc0-af10b51ec49c")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "TP_R0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:DMG_BTN1")
+		(at 50.8 143.51 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "223f6e7a-819a-4979-8140-bb28c32a07ab")
+		(property "Reference" "B0"
+			(at 53.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "DMG-BTN"
+			(at 53.34 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:DMG_BTN1"
+			(at 50.8 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "A, B, Up, Down, Left, Right button pads for DMG"
+			(at 50.8 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "6e850a3a-4fb0-429e-9ae0-a45ca7efc7ed")
+		)
+		(pin "P$1"
+			(uuid "9a1a4538-2b64-4d66-9c7f-b74012201110")
+		)
+		(instances
+			(project "lego-gameboy-buttonboards"
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "B0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:GND")
+		(at 26.67 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b8809b9-1a22-4c73-bb84-2612e90ef799")
+		(property "Reference" "#GND01"
+			(at 26.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 157.48 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 26.67 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1f65acf-e51a-488f-97c8-21e16554025e")
+		)
+		(instances
+			(project "lego-gameboy-buttonboards"
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:GND")
+		(at 62.23 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a8374ff-26e1-4ef8-8437-66f34cee252e")
+		(property "Reference" "#GND2"
+			(at 62.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 133.35 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 62.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52cff7e9-0078-428d-8dea-1124f0267587")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "#GND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:GND")
+		(at 58.42 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "526d05fb-d006-4ab3-8bc3-cb4dcdc6917c")
+		(property "Reference" "#GND03"
+			(at 58.42 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 163.83 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 58.42 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1391010-ca0e-4c6c-ad36-dd751ee6ffda")
+		)
+		(instances
+			(project "lego-gameboy-buttonboards"
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "#GND03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:DMG_BTN1")
+		(at 88.9 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5eb34b27-e4ed-4a04-96d9-022acfb130be")
+		(property "Reference" "UP0"
+			(at 86.36 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "DMG-BTN"
+			(at 86.36 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:DMG_BTN1"
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "A, B, Up, Down, Left, Right button pads for DMG"
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "feffeeff-3bb9-42fd-9899-8180a59ca6a8")
+		)
+		(pin "P$2"
+			(uuid "5b7a56fd-cb53-4949-89e9-a3c8b9b04bd9")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "UP0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:DMG_BTN2_TACT2")
+		(at 54.61 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75e0c80a-48df-46d0-b7b2-58df328731b2")
+		(property "Reference" "SELECT0"
+			(at 57.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "DMG-BTN"
+			(at 57.15 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:DMG_BTN2_TACT2"
+			(at 54.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Start, Select button pads for DMG"
+			(at 54.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "d7d00c5d-e7b8-4e01-a1c7-8c22caa3acbb")
+		)
+		(pin "P$1"
+			(uuid "070526e1-1add-496c-9db7-df92beae808c")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "SELECT0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:DMG_BTN1")
+		(at 88.9 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e87477d-bb7e-480b-87d2-67998925f127")
+		(property "Reference" "LEFT0"
+			(at 86.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "DMG-BTN"
+			(at 86.36 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:DMG_BTN1"
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "A, B, Up, Down, Left, Right button pads for DMG"
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "046e7b08-a594-4bcc-9efb-17e13e0923a3")
+		)
+		(pin "P$2"
+			(uuid "c41de7e7-d88a-4bc2-aa58-e95aaac76e2c")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "LEFT0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:PTR1TP20R")
+		(at 41.91 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c6ee8c5-0777-42c5-89ac-acc324f802ad")
+		(property "Reference" "TP_SEL0"
+			(at 42.926 88.9 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PTR1TP20R"
+			(at 41.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:TP20R"
+			(at 41.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEST PIN"
+			(at 41.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "b540ce1c-ebb4-473a-8508-c73cf1c2664a")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "TP_SEL0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:DMG_BTN2_TACT2")
+		(at 54.61 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0088efa-e835-4d6d-b6d1-ed9e0277c56a")
+		(property "Reference" "START0"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "DMG-BTN"
+			(at 57.15 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:DMG_BTN2_TACT2"
+			(at 54.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Start, Select button pads for DMG"
+			(at 54.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "e0c54645-bede-43b4-a82b-684bea89f3ff")
+		)
+		(pin "P$2"
+			(uuid "8e5385c8-a82b-4f01-8a6a-0d220a3872f2")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "START0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:PTR1TP20R")
+		(at 83.82 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3c502bb-fa0f-4670-90ba-3de335b28730")
+		(property "Reference" "3V30"
+			(at 84.836 104.14 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PTR1TP20R"
+			(at 83.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:TP20R"
+			(at 83.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEST PIN"
+			(at 83.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "32583d0b-e2dd-4a8b-8184-adbc04fe2729")
+		)
+		(instances
+			(project "DMGC-IPS-01_2-4"
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "3V30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:PTR1TP20R")
+		(at 38.1 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be54efbd-36ad-43d1-8f37-166445b7ebbb")
+		(property "Reference" "TP_B0"
+			(at 39.116 134.62 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PTR1TP20R"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:TP20R"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEST PIN"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "d73be2f6-ca7b-4378-9ba8-8b35182631db")
+		)
+		(instances
+			(project "lego-gameboy-buttonboards"
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "TP_B0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:PTR1TP20R")
+		(at 104.14 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1851812-822c-4780-a2df-8abd9828a2bd")
+		(property "Reference" "TP_U0"
+			(at 105.156 121.92 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PTR1TP20R"
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:TP20R"
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEST PIN"
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "7f27fc06-1f6b-43e6-a1c6-0b5a512fea86")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "TP_U0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:PTR1TP20R")
+		(at 38.1 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c77f97fb-85f6-425e-a1dd-385d90f02998")
+		(property "Reference" "TP_A0"
+			(at 39.116 146.05 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PTR1TP20R"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:TP20R"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEST PIN"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "3cf8d777-89e1-45a0-8da3-d26adff3a696")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "TP_A0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:PTR1TP20R")
+		(at 41.91 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d39c3c1b-e8dd-4c7d-8479-2c1cf6eb4952")
+		(property "Reference" "SP_ST0"
+			(at 42.926 99.06 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PTR1TP20R"
+			(at 41.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:TP20R"
+			(at 41.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEST PIN"
+			(at 41.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "cbfd9346-5664-4ecb-a7e8-a93def1dbb61")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "SP_ST0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:PTR1TP20R")
+		(at 27.94 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ded40558-f55d-46a5-b883-04dfe9df69eb")
+		(property "Reference" "GND0"
+			(at 28.956 87.63 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PTR1TP20R"
+			(at 27.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:TP20R"
+			(at 27.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEST PIN"
+			(at 27.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "4c352cea-d8ef-4e41-948c-c662710bab35")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "GND0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:PTR1TP20R")
+		(at 104.14 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6eed778-6d2f-4a4a-ae11-b43a910e6dfe")
+		(property "Reference" "TP_L0"
+			(at 105.156 111.76 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PTR1TP20R"
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:TP20R"
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEST PIN"
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "92bca56c-7be4-426c-b5d8-8e26e24cca9f")
+		)
+		(instances
+			(project ""
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "TP_L0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DMG:PTR1TP20R")
+		(at 26.67 147.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5bd9e4f-a30b-459c-b4a7-fe11dfb8b664")
+		(property "Reference" "GND1"
+			(at 27.686 140.97 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PTR1TP20R"
+			(at 26.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DMG:TP20R"
+			(at 26.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEST PIN"
+			(at 26.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "54f32613-938e-4f99-86da-e8192c38389b")
+		)
+		(instances
+			(project "lego-gameboy-buttonboards"
+				(path "/8dcae994-71e6-49aa-90cb-ebad899bdc5c"
+					(reference "GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
