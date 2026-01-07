@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "ESP32_BatteryPowered_Charger.kicad_prl",
+    "filename": "lego_gameboy_main.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
