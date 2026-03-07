@@ -497,7 +497,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "startselect/",
+      "plot": "../../Adafruit-2.4-TFT-Breakout-PCB/ab-pcb/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "DMGC-IPS-01_2-4.step",
